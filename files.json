@@ -1,0 +1,14 @@
+[
+    {
+        "name": "foo.tar.gz",
+        "url": "http:// ...",
+        "host": {
+            "provider": "gDrive",
+            "auth": {
+                "user": "",
+                "password": ""
+            }
+        },
+        "downloadLocation": ""
+    }
+]
