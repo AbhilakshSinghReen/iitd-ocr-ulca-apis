@@ -1,8 +1,19 @@
 [
     {
-        "name": "text-recognizer-apis--parseq-based.tar",
-        "url": "https://drive.google.com/uc?id=1-1PBspHXvq4UBXZ81cJ_NcV7PK2hUaj_",
-        "foo": "random change 3 for no reason",
+        "name": "test.txt",
+        "url": "https://drive.google.com/uc?id=1fLW9bfnAYw40hidUSDiwkA8zpv7-zJCM",
+        "host": {
+            "provider": "gDrive",
+            "auth": {
+                "user": "",
+                "password": ""
+            }
+        },
+        "downloadLocation": ""
+    },
+    {
+        "name": "iitd-ocr-apis-parseq_based.tar",
+        "url": "https://drive.google.com/uc?id=1NNdcVxJJIR1sBnF42cv-cRnrSk9RcpmM",
         "host": {
             "provider": "gDrive",
             "auth": {
