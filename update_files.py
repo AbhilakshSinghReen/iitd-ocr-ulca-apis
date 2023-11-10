@@ -1,5 +1,6 @@
 import os
 import json
+import gdown
 
 files_json_path = os.path.join(os.path.dirname(__file__), "files.json")
 files_root_dir = os.path.join(os.path.dirname(__file__), "files")
@@ -13,7 +14,9 @@ def try_read_json_file(file_path, default_value = {}):
         return default_value
 
 def download_file(file_dict):
-    pass
+    file_url = file_dict['url']
+    output_path = os.path.join(files_root_dir, file_dict['name'])
+    gdown.download(file_url, output_path, quiet=False)
 
 
 if __name__ == "__main__":

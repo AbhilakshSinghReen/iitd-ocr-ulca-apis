@@ -1,7 +1,7 @@
 [
     {
-        "name": "foo.tar.gz",
-        "url": "http:// ...",
+        "name": "foo.txt",
+        "url": "https://drive.google.com/uc?id=1-1PBspHXvq4UBXZ81cJ_NcV7PK2hUaj_",
         "host": {
             "provider": "gDrive",
             "auth": {
