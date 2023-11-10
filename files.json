@@ -2,6 +2,7 @@
     {
         "name": "text-recognizer-apis--parseq-based.tar",
         "url": "https://drive.google.com/uc?id=1-1PBspHXvq4UBXZ81cJ_NcV7PK2hUaj_",
+        "foo": "random change 2 for no reason",
         "host": {
             "provider": "gDrive",
             "auth": {
