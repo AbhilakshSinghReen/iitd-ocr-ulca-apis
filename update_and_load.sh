@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git pull
+
 # Update to the latest files
 # conda_env_name="iitd_ocr_ulca_apis_deploy"
 
