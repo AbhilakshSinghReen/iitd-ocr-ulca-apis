@@ -34,8 +34,6 @@ python3 update_files.py # Update the files
 
 cd files
 
-# cat foo.txt
+docker load -i text-recognizer-apis--parseq-based.tar
 
-# docker load -i text-recognizer-apis--parseq-based.tar
-
-# docker run -it --network="host" -e PORT=8003 text-recognizer-apis--parseq-based
+docker run -it --network="host" -e PORT=8003 text-recognizer-apis--parseq-based
